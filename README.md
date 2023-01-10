@@ -4,34 +4,26 @@
 一个抽奖的程序
 
 #### 软件架构
-软件架构说明
+采用C++编写
 
 
-#### 安装教程
+#### 使用教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  可采用如DevCpp等程序打开main.cpp
+2.  直接编译运行即可
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  抽奖人数：即参与人数，将影响分数的读取
+             应存放在与程序同目录的“score.txt”文本文档中
+             内部格式为一个名字，换行输入分数;
+2.  奖品数量：此为奖品的总类数，而非奖品所准备的份数
+             存放在与程序同目录的“award.txt”文本文档中
+             内部格式为一个奖品的名称，换行输入准备的份数
+3.  随机种子：随机抽奖的依赖，随便输入一个不超过1000000的数即可
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 注意事项
+1.奖品种类不要超过55
+2.人数不要超过100
+3.目前未添加排序功能
+4.所有存放在“XX.txt”中的名称/数量，请不要出现空格，否则一定会出错
